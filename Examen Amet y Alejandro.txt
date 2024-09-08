@@ -1,0 +1,35 @@
+public static void main(String[] args) ( Scanner leer-new Scanner(System.in);
+ String cadena; 
+
+int N1=0, N2-0, N3=0;
+ System.out.println("Ingresar TEXTO "); 
+cadena leer.nextLine();
+
+for (int i=0; i < cadena.length(); i++) {
+
+switch(cadena.charAt(i)){
+
+case '(: N1++;
+
+case '': N2++;
+
+case '(': N3++;
+
+case ')': N1++;
+
+case']': N2++;
+
+case : N3++;
+
+default:
+
+break:
+
+if (N1%20 && N2%2-0 && N3%2==0){ System.out.println("Cadena Positiva");
+
+1
+
+else { System.out.println("Cadena Negativa");
+}
+}
+}
